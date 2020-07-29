@@ -1,0 +1,332 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "big test",
+      "intents": [
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "dontpay",
+          "slots": [],
+          "samples": [
+            "I don\u0027t want to pay",
+            "Don\u0027t pay",
+            "No I\u0027m not paying",
+            "I\u0027m not going to pay",
+            "I\u0027m not paying"
+          ]
+        },
+        {
+          "name": "pay",
+          "slots": [],
+          "samples": [
+            "Don\u0027t worry I\u0027ll pay",
+            "Pay",
+            "I\u0027ll pay"
+          ]
+        },
+        {
+          "name": "attack",
+          "slots": [],
+          "samples": [
+            "attack",
+            "knock him out",
+            "let\u0027s attack him",
+            "attack him",
+            "Hit him"
+          ]
+        },
+        {
+          "name": "dontattack",
+          "slots": [],
+          "samples": [
+            "let\u0027s not hit him",
+            "do not attack",
+            "do not hit him",
+            "don\u0027t hit him",
+            "don\u0027t attack him",
+            "don\u0027t attack"
+          ]
+        },
+        {
+          "name": "romance",
+          "slots": [],
+          "samples": [
+            "romance",
+            "Can we watch the romance",
+            "I\u0027d like to watch the romance",
+            "let\u0027s watch the romance",
+            "the romance looks fun",
+            "I want to watch the romance"
+          ]
+        },
+        {
+          "name": "horror",
+          "slots": [],
+          "samples": [
+            "can we watch the horror",
+            "The horror sounds fun",
+            "I want to watch the horror",
+            "let\u0027s watch the horror",
+            "horror"
+          ]
+        },
+        {
+          "name": "relax",
+          "slots": [],
+          "samples": [
+            "let\u0027s relax",
+            "relax"
+          ]
+        },
+        {
+          "name": "dontblink",
+          "slots": [],
+          "samples": [
+            "don\u0027t blink"
+          ]
+        },
+        {
+          "name": "dontmove",
+          "slots": [],
+          "samples": [
+            "don\u0027t move"
+          ]
+        },
+        {
+          "name": "freedom",
+          "slots": [],
+          "samples": [
+            "I want to be free",
+            "let me be free",
+            "give me freedom",
+            "freedom",
+            "I want freedom"
+          ]
+        },
+        {
+          "name": "leave",
+          "slots": [],
+          "samples": [
+            "I want to leave",
+            "leave",
+            "hey let\u0027s get out of here",
+            "wanna get out of here",
+            "let\u0027s get out of here",
+            "let\u0027s leave"
+          ]
+        },
+        {
+          "name": "right",
+          "slots": [],
+          "samples": [
+            "go right",
+            "shoot right",
+            "right"
+          ]
+        },
+        {
+          "name": "left",
+          "slots": [],
+          "samples": [
+            "go left",
+            "shoot left",
+            "left"
+          ]
+        },
+        {
+          "name": "no",
+          "slots": [],
+          "samples": [
+            "not gonna marry you",
+            "I will not marry you",
+            "no thanks",
+            "No sir",
+            "I will not",
+            "no"
+          ]
+        },
+        {
+          "name": "yes",
+          "slots": [],
+          "samples": [
+            "Yes let\u0027s get married",
+            "Yes",
+            "Yes I do",
+            "I do"
+          ]
+        },
+        {
+          "name": "tuna",
+          "slots": [],
+          "samples": [
+            "tuna fish sandwich",
+            "Tuna",
+            "tuna fish please",
+            "tuna fish",
+            "Tuna please",
+            "Tuna sandwich please",
+            "I\u0027ll take the tuna sandwich",
+            "I want the tuna"
+          ]
+        },
+        {
+          "name": "pbj",
+          "slots": [],
+          "samples": [
+            "I\u0027ll take the peanut butter",
+            "peanut butter please",
+            "peanut butter and jelly",
+            "peanut butter jelly",
+            "peanut butter"
+          ]
+        },
+        {
+          "name": "splitup",
+          "slots": [],
+          "samples": [
+            "split up",
+            "we should split up",
+            "I want to split up",
+            "let\u0027s split up"
+          ]
+        },
+        {
+          "name": "staytogether",
+          "slots": [],
+          "samples": [
+            "stick together",
+            "let\u0027s go together",
+            "I want to say with you",
+            "I want to stick with you",
+            "stay together",
+            "Let\u0027s stay together"
+          ]
+        },
+        {
+          "name": "more",
+          "slots": [],
+          "samples": [
+            "go more",
+            "more",
+            "let\u0027s do more"
+          ]
+        },
+        {
+          "name": "exit",
+          "slots": [],
+          "samples": [
+            "we need to escape",
+            "let\u0027s escape",
+            "escape"
+          ]
+        },
+        {
+          "name": "road",
+          "slots": [],
+          "samples": [
+            "road please",
+            "Lets go on the road",
+            "Road",
+            "Let\u0027s hit the road"
+          ]
+        },
+        {
+          "name": "shiny",
+          "slots": [],
+          "samples": [
+            "shining light",
+            "let\u0027s follow the shining light",
+            "the shiny",
+            "oh shiny",
+            "shiny"
+          ]
+        },
+        {
+          "name": "dig",
+          "slots": [],
+          "samples": [
+            "dig out",
+            "let\u0027s dig our way out",
+            "dig our way out",
+            "dig",
+            "let\u0027s dig"
+          ]
+        },
+        {
+          "name": "pick",
+          "slots": [],
+          "samples": [
+            "try to pick the lock",
+            "pick lock",
+            "let\u0027s try to pick the lock",
+            "pick the lock"
+          ]
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "tryagain",
+          "slots": [],
+          "samples": [
+            "let\u0027s try again",
+            "I want to try again",
+            "try again"
+          ]
+        },
+        {
+          "name": "red",
+          "slots": [],
+          "samples": [
+            "red"
+          ]
+        },
+        {
+          "name": "pressx",
+          "slots": [],
+          "samples": [
+            "please press x",
+            "x",
+            "press x"
+          ]
+        },
+        {
+          "name": "watchplay",
+          "slots": [],
+          "samples": [
+            "I want to watch the play",
+            "lets\u0027s watch the play",
+            "let\u0027s watch the other play",
+            "watch play"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "11"
+}
